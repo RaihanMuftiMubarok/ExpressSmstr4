@@ -5,12 +5,13 @@ let connection = mysql.createConnection({
     password: '',
     database: 'db_pemrograman_framework',
 });
+
 connection.connect(function(error){
     if(!!error){
         console.log(error)
     }else{
         console.log('connection success')
     }
-})
+});
 
-module.export = connection;
+module.exports = connection;
