@@ -3,7 +3,7 @@ let connection = mysql.createConnection({
     host: 'localhost',
     user: 'root',
     password: '',
-    database: 'dbpemrograman_framework',
+    database: 'db_pemrograman_framework',
 });
 connection.connect(function(error){
     if(!!error){
